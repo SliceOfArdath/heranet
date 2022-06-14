@@ -1,0 +1,53 @@
+body {
+  background-color:white;
+  font-family:"Times News Roman";
+  display: flex;
+  justify-content: center;
+}
+#index_page {
+  width:500px;
+  background-color:white;
+  padding:1px 7.5px;
+  border-radius:10px;
+}
+#email {
+  width:900px;
+  background-color:white;
+  padding:5px 7.5px;
+  border-style: dotted;
+}
+.person {
+  color:grey;
+  position:relative;
+  left:5px;
+}
+#email_title {
+  font-size:110%;
+  font-weight:bold;
+}
+table, th, td {
+  border: 1.5px solid;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color:#eee;
+}
+.filename {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+}
+.text_embed {
+  border: 1px solid black;
+  width: 40%;
+  padding: 0.5%;
+  margin-left: 2%;
+}
+.preview_fail {
+  border: 1px solid black;
+  padding: 0.5%;
+  width: 40%;
+  margin-left: 2%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  color:red;
+}
